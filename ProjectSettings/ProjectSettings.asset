@@ -161,7 +161,8 @@ PlayerSettings:
   resolutionScalingMode: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
-  applicationIdentifier: {}
+  applicationIdentifier:
+    iPhone: com.AzzabiGaming.ARTest
   buildNumber: {}
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 19
@@ -179,7 +180,7 @@ PlayerSettings:
   StripUnusedMeshComponents: 1
   VertexChannelCompressionMask: 4054
   iPhoneSdkVersion: 988
-  iOSTargetOSVersionString: 10.0
+  iOSTargetOSVersionString: 11.0
   tvOSSdkVersion: 0
   tvOSRequireExtendedGameController: 0
   tvOSTargetOSVersionString: 10.0
@@ -342,7 +343,7 @@ PlayerSettings:
     - Oculus
     - OpenVR
   - m_BuildTarget: iPhone
-    m_Enabled: 0
+    m_Enabled: 1
     m_Devices:
     - None
   openGLRequireES31: 0
@@ -361,7 +362,7 @@ PlayerSettings:
   enableInternalProfiler: 0
   logObjCUncaughtExceptions: 1
   enableCrashReportAPI: 0
-  cameraUsageDescription: 
+  cameraUsageDescription: Required for AR Support
   locationUsageDescription: 
   microphoneUsageDescription: 
   switchNetLibKey: 
